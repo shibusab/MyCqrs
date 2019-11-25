@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyCqrs.Claims.Domain.Claim">
+    <Position X="3.5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAASAAAQAAMAAAQAAABEAAAAAAAIAAAAAAAAUAAAAAA=</HashCode>
+      <FileName>Claims\Domain\Claim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyCqrs.Seed.AggregateRoot">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IACCAAAAABAAQAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seed\AggregateRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyCqrs.Seed.EventData">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAIAAAEAAAAAAgAAAAQAAAAAAAAEAAA=</HashCode>
+      <FileName>Seed\EventData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyCqrs.Seed.EventStore">
+    <Position X="10.5" Y="4.75" Width="2.25" />
+    <NestedTypes>
+      <Struct Name="MyCqrs.Seed.EventStore.EventDescriptor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Seed\EventStore.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Seed\EventStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MyCqrs.Seed.TextEventStoreProvider">
+    <Position X="13" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAABCAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Seed\TextEventStoreProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MyCqrs.Seed.IEventPublisher">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seed\IEventPublisher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MyCqrs.Seed.IEventStore">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seed\IEventStore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MyCqrs.Seed.ICommandSender">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Seed\ICommandSender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
